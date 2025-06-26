@@ -6,39 +6,40 @@ import imgApple from "../images/1200px-Apple_gray_logo 1.png";
 import imgShopIcon from "../images/Vector (1).png";
 import "../css/HomePage.css";
 import { Link } from "react-router-dom";
+
 function HomePage() {
     return (
         <div className="home-PageDepartament">
             <div className="container">
                 <ul className="col-links">
                     <li>
-                        <a href="#Woman’s Fashion">Woman’s Fashion</a>
+                        <Link to={""}>Woman’s Fashion</Link>
                         <FontAwesomeIcon className="icon-right" icon={faChevronRight}/>
                     </li>
                     <li>
-                        <a href="#Men’s Fashion">Men’s Fashion</a>
+                        <Link to={""}>Men’s Fashion</Link>
                         <FontAwesomeIcon className="icon-right" icon={faChevronRight}/>
                     </li>
                     <li>
-                        <a href="#Electronics">Electronics</a>
+                        <Link to={""}>Electronics</Link>
                     </li>
                     <li>
-                        <a href="#Home & Lifestyle">Home & Lifestyle</a>
+                        <Link to={""}>Home & Lifestyle</Link>
                     </li>
                     <li>
-                        <a href="#Medicine">Medicine</a>
+                        <Link to={""}>Medicine</Link>
                     </li>
                     <li>
-                        <a href="#Sports & Outdoor">Sports & Outdoor</a>
+                        <Link to={""}>Sports & Outdoor</Link>
                     </li>
                     <li>
-                        <a href="#Baby’s & Toys">Baby’s & Toys</a>
+                        <Link to={""}>Baby’s & Toys</Link>
                     </li>
                     <li>
-                        <a href="#Groceries & Pets">Groceries & Pets</a>
+                        <Link to={""}>Groceries & Pets</Link>
                     </li>
                     <li>
-                        <a href="#Health & Beauty">Health & Beauty</a>
+                        <Link to={""}>Health & Beauty</Link>
                     </li>
                 </ul>
                 <div className="Shop-Col">
